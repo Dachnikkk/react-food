@@ -4,7 +4,7 @@ function Header() {
             <div className="nav-wrapper">
                 <a href="http://localhost:3000/" className="brand-logo">React Food</a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><a href="https://github.com/Dachnikkk/React-Shop">Repository</a></li>
+                    <li><a href="https://github.com/Dachnikkk/react-food">Repository</a></li>
                 </ul>
             </div>
         </nav>
