@@ -1,6 +1,6 @@
 {
-  "name": "React-Food",
-  "home": "https://dachnikkk.github.io/react-food",
+  "name": "react-food",
+  "homepage": "https://dachnikkk.github.io/react-food",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

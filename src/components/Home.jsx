@@ -29,7 +29,7 @@ function Home() {
 
     useEffect(() => {
         getAllCategories().then((data) => { setCatalog(data.categories) })
-        getAllCategories().then((data) => { setFiltredCatalog(data.categories.filter(item => item.strCategory.toLowerCase().includes(search.split('=')[1].toLowerCase()))) })
+        getAllCategories().then((data) => { !search ?  setFiltredCatalog( data.categories ) : setFiltredCatalog(data.categories.filter(item => item.strCategory.toLowerCase().includes(search.split('=')[1].toLowerCase()))) })
     }, [search])
 
     return (
